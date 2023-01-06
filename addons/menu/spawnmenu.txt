@@ -1,0 +1,22 @@
+SMenu
+{
+	"width" "800"
+	"height" "600"
+
+	"ExamplePage" //Page
+	{
+		"ExampleButton" //Button
+		{
+			"command" "sv_cheats 1;npc_create npc_kleiner"
+		}
+
+		"ExampleImageButton" //ImageButton
+		{
+			"imagebutton" "1"
+			"normal" "pic/npc_kleiner.vmt"
+			"overimage" "pic/npc_kleiner.vmt"
+			"mouseclick" "pic/npc_kleiner.vmt"
+			"command" "npc_create npc_kleiner"
+		}
+	}
+}
