@@ -1,0 +1,4 @@
+Dynamite
+{
+	"modelname" "models/Weapons/w_grenade.mdl"
+}
